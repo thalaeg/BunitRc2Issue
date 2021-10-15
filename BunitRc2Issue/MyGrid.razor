@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Components.Web.Virtualization
+
+<Virtualize Context="employee" ItemsProvider="@LoadEmployees">
+    <p>
+        @employee.FirstName @employee.LastName has the 
+        job title of @employee.JobTitle.
+    </p>
+</Virtualize>
+
+@code {
+    private class Employee
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string JobTitle { get; set; }
+    }
+
+    private async ValueTask<ItemsProviderResult<Employee>> LoadEmployees(ItemsProviderRequest request)
+    {
+        var employees = new List<Employee>
+        {
+            new Employee { FirstName = "Jon", LastName="Snow", JobTitle="Wall Watcher"},
+            new Employee { FirstName = "Daenerys", LastName="Targaryen", JobTitle="Mother of Dragons"},
+            new Employee { FirstName = "Tyrion", LastName="Lannister", JobTitle="Thinker and Drinker"},
+        };
+
+        return new ItemsProviderResult<Employee>(employees, 3);
+    }
+}

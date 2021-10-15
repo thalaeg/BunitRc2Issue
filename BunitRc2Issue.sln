@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunitRc2Issue", "BunitRc2Issue\BunitRc2Issue.csproj", "{FAA784E4-33F6-4BC2-A300-2E99507875C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunitRc2Issue.Tests", "BunitRc2Issue.Tests\BunitRc2Issue.Tests.csproj", "{F4CB1EC4-8516-4BFA-8C83-D495F29EB864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA784E4-33F6-4BC2-A300-2E99507875C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA784E4-33F6-4BC2-A300-2E99507875C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA784E4-33F6-4BC2-A300-2E99507875C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA784E4-33F6-4BC2-A300-2E99507875C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CB1EC4-8516-4BFA-8C83-D495F29EB864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CB1EC4-8516-4BFA-8C83-D495F29EB864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CB1EC4-8516-4BFA-8C83-D495F29EB864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CB1EC4-8516-4BFA-8C83-D495F29EB864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F49D7A1-F313-4A15-B6DB-39A50DAF1D71}
+	EndGlobalSection
+EndGlobal
